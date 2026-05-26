@@ -1,6 +1,5 @@
 import { useScrollReveal } from '../hooks/useScrollReveal'
-import { FileText, Download, Code2, Copy, CheckCircle, ImagePlus } from 'lucide-react'
-import { useState } from 'react'
+import { Download, ImagePlus } from 'lucide-react'
 
 const downloads = [
   {
@@ -37,23 +36,9 @@ const downloads = [
   },
 ]
 
-const steps = [
-  { n: 1, text: 'Fork or download the source code from the GitHub repository below.' },
-  { n: 2, text: 'Update the content in /src/data/ with facts relevant to your community or region.' },
-  { n: 3, text: 'Replace placeholder images in /public/images/ with your own licensed photos.' },
-  { n: 4, text: 'Update the footer with your name, school, and year.' },
-  { n: 5, text: 'Deploy for free to Netlify, Vercel, or GitHub Pages.' },
-]
 
 export default function Toolkit() {
   const headerRef = useScrollReveal()
-  const [copied, setCopied] = useState(false)
-
-  const copyLink = () => {
-    navigator.clipboard.writeText('https://github.com/your-username/breathe-easy')
-    setCopied(true)
-    setTimeout(() => setCopied(false), 2000)
-  }
 
   return (
     <section
@@ -131,7 +116,7 @@ export default function Toolkit() {
         <h3 className="font-display font-bold text-2xl text-brown mb-6">
           Downloadable Resources
         </h3>
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-14">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
           {downloads.map((dl) => (
             <a
               key={dl.id}
@@ -156,69 +141,6 @@ export default function Toolkit() {
           ))}
         </div>
 
-        {/* Adaptation guide */}
-        <div
-          className="rounded-2xl p-8 mb-8 shadow-card"
-          style={{ backgroundColor: '#FAF4EC' }}
-        >
-          <h3 className="font-display font-bold text-2xl text-brown mb-6 flex items-center gap-2">
-            <FileText size={22} className="text-sage" aria-hidden="true" />
-            How To Adapt This Site
-          </h3>
-          <ol className="space-y-4 list-none m-0 p-0">
-            {steps.map((step) => (
-              <li key={step.n} className="flex items-start gap-4">
-                <span
-                  className="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-ui font-bold text-sm text-cream"
-                  style={{ backgroundColor: '#6B8E5E' }}
-                  aria-hidden="true"
-                >
-                  {step.n}
-                </span>
-                <p className="font-body text-brown/75 text-base pt-1 leading-relaxed">{step.text}</p>
-              </li>
-            ))}
-          </ol>
-        </div>
-
-        {/* GitHub link */}
-        <div
-          className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 rounded-xl p-6 border-2"
-          style={{ borderColor: '#6B8E5E', backgroundColor: 'rgba(107,142,94,0.05)' }}
-        >
-          <div className="flex items-center gap-3">
-            <Code2 size={24} className="text-sage flex-shrink-0" aria-hidden="true" />
-            <div>
-              <div className="font-ui font-bold text-brown text-base">Open Source on GitHub</div>
-              <div className="font-body text-brown/60 text-sm">
-                github.com/your-username/breathe-easy
-              </div>
-            </div>
-          </div>
-          <div className="flex gap-2">
-            <button
-              onClick={copyLink}
-              className="btn-secondary text-sm"
-              style={{ borderColor: '#6B8E5E', color: '#6B8E5E', minHeight: '40px' }}
-              aria-label="Copy GitHub link"
-            >
-              {copied ? (
-                <><CheckCircle size={15} aria-hidden="true" /> Copied!</>
-              ) : (
-                <><Copy size={15} aria-hidden="true" /> Copy Link</>
-              )}
-            </button>
-            <a
-              href="https://github.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn-primary text-sm"
-              style={{ backgroundColor: '#6B8E5E', minHeight: '40px' }}
-            >
-              View Repo
-            </a>
-          </div>
-        </div>
       </div>
     </section>
   )

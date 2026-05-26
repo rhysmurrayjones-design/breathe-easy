@@ -8,6 +8,7 @@ import SolutionsSection from './components/SolutionsSection'
 import PhotoGallery from './components/PhotoGallery'
 import Toolkit from './components/Toolkit'
 import Sources from './components/Sources'
+import MeetTheTeam from './components/MeetTheTeam'
 import Footer from './components/Footer'
 
 export default function App() {
@@ -29,6 +30,7 @@ export default function App() {
         <WhyItMatters />
         <SolutionsSection />
         <PhotoGallery />
+        <MeetTheTeam />
         <Toolkit />
         <Sources />
       </main>

@@ -83,8 +83,8 @@ function PhotoSlot({ photo, onClick }) {
   return (
     <button
       onClick={onClick}
-      className="relative group w-full rounded-xl overflow-hidden shadow-card hover:shadow-card-hover transition-all cursor-pointer focus:ring-2 focus:ring-terracotta focus:ring-offset-2"
-      style={{ height: PHOTO_HEIGHT }}
+      className="relative group w-full cursor-pointer focus:outline-none"
+      style={{ height: PHOTO_HEIGHT, display: 'block' }}
       aria-label={`View photo: ${photo.label}`}
     >
       {photo.src ? (
@@ -132,7 +132,21 @@ export default function PhotoGallery() {
 
       <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
         {photos.map((photo) => (
-          <PhotoSlot key={photo.id} photo={photo} onClick={() => setSelected(photo)} />
+          <article
+            key={photo.id}
+            className="bg-sand rounded-xl shadow-card overflow-hidden transition-shadow hover:shadow-card-hover"
+          >
+            <PhotoSlot photo={photo} onClick={() => setSelected(photo)} />
+            <div className="p-5 pb-6">
+              <h3 className="font-display font-bold text-brown text-base leading-tight mb-2">
+                {photo.label}
+              </h3>
+              {/* DESCRIBE THIS STEP HERE: replace the placeholder text with your own description */}
+              <p className="font-body text-brown/70 text-sm leading-relaxed" style={{ minHeight: '6.5rem' }}>
+                Describe this step of your process here.
+              </p>
+            </div>
+          </article>
         ))}
       </div>
 

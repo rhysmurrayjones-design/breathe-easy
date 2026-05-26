@@ -37,7 +37,7 @@ export default function WhatIsIAQ() {
     <section id="what-is-iaq" className="py-20 sm:py-28 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
       <div ref={headerRef} className="reveal mb-16 max-w-3xl">
         <p className="section-label mb-3">The Basics</p>
-        <h2 className="section-heading mb-6">What Is Indoor Air Quality?</h2>
+        <h2 className="section-heading mb-6">What Is Indoor Air Quality and Why Is It Not Regulated?</h2>
         <div className="font-body text-brown/80 text-lg leading-relaxed space-y-4">
           <p>
             Indoor air quality (IAQ) refers to the air quality inside buildings and structures — the air we breathe at home, at school, and at work. While most people worry about smog and outdoor pollution, the EPA estimates indoor air can be <strong className="text-brown">2 to 5 times more polluted</strong> than the air outside.
@@ -48,6 +48,12 @@ export default function WhatIsIAQ() {
           </p>
           <p>
             The good news: once you know what's in your air and where it comes from, there's a lot you can do. This toolkit will walk you through the problems, the health impacts, and the solutions — starting with what matters most.
+          </p>
+          <p>
+            Unlike outdoor air pollution, indoor air quality in private homes and most buildings is not regulated by the federal government. The Clean Air Act, enforced by the EPA, only covers outdoor air. The EPA has no legal authority to set or enforce indoor air quality standards in homes, schools, or offices. While the EPA provides guidelines and recommendations, building owners and landlords are not legally required to follow them. Some states have limited regulations for schools and workplaces, but there is no national standard. Experts argue this gap exists because regulating indoor spaces raises complex legal questions about privacy and property rights, and because the problem was not well understood until recent decades.
+            <a href="#source-1" className="cite" aria-label="Source 1">[1]</a>
+            <a href="#source-2" className="cite" aria-label="Source 2">[2]</a>
+            <a href="#source-7" className="cite" aria-label="Source 7">[7]</a>
           </p>
         </div>
       </div>
