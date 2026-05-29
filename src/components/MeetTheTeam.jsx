@@ -1,8 +1,9 @@
 import { Camera } from 'lucide-react'
+import hansPhoto from '../assets/images/Hans.jpg'
 import { useScrollReveal, useScrollRevealChildren } from '../hooks/useScrollReveal'
 
 const teamMembers = [
-  { id: 1, name: 'Hans Hilton', photo: '/assets/images/Hans.jpg' },
+  { id: 1, name: 'Hans Hilton', photo: hansPhoto },
   { id: 2 },
   { id: 3 },
   { id: 4 },
