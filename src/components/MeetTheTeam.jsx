@@ -1,5 +1,5 @@
 import { Camera } from 'lucide-react'
-import hansPhoto from '../assets/images/Hans.jpg'
+import hansPhoto from '../assets/Images/Hans.jpg'
 import { useScrollReveal, useScrollRevealChildren } from '../hooks/useScrollReveal'
 
 const teamMembers = [
