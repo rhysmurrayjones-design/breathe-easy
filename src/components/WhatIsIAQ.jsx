@@ -37,7 +37,7 @@ export default function WhatIsIAQ() {
     <section id="what-is-iaq" className="py-20 sm:py-28 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
       <div ref={headerRef} className="reveal mb-16 max-w-3xl">
         <p className="section-label mb-3">The Basics</p>
-        <h2 className="section-heading mb-6">What Is Indoor Air Quality and Why Is It Not Regulated?</h2>
+        <h2 className="section-heading mb-6">What Is Indoor Air Quality and Why Is It Not Regulated At Healthy Standards?</h2>
         <div className="font-body text-brown/80 text-lg leading-relaxed space-y-4">
           <p>
             Indoor air quality (IAQ) refers to the air quality inside buildings and structures — the air we breathe at home, at school, and at work. While most people worry about smog and outdoor pollution, the EPA estimates indoor air can be <strong className="text-brown">2 to 5 times more polluted</strong> than the air outside.
