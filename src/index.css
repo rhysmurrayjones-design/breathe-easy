@@ -136,27 +136,69 @@
 }
 
 @media print {
-  nav, header, footer, #gallery, #toolkit, #sources, .btn-secondary, .btn-primary {
+  /* Hide everything on the page */
+  body.printing * {
+    visibility: hidden !important;
+  }
+
+  /* Reveal only the solutions section */
+  body.printing #solutions {
+    visibility: visible !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: white !important;
+    color: black !important;
+    padding: 1.5cm 1.5cm 1cm !important;
+    margin: 0 !important;
+  }
+
+  body.printing #solutions * {
+    visibility: visible !important;
+    color: black !important;
+  }
+
+  /* Print header injected above the tiers */
+  body.printing #solutions::before {
+    content: "Indoor Air Quality \2014 Action Checklist\A Breathe Easy | FPS Community Project";
+    white-space: pre;
+    display: block;
+    visibility: visible !important;
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 16pt;
+    font-weight: 700;
+    color: black !important;
+    line-height: 1.5;
+    margin-bottom: 1.25rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 2pt solid black;
+  }
+
+  /* Hide the section intro (label, heading, description, print button) */
+  body.printing #solutions-header {
     display: none !important;
   }
 
-  body {
-    font-size: 14px;
-    background: white;
-    color: black;
-  }
-
-  #solutions {
+  /* Clean card styling */
+  body.printing article {
     background: white !important;
-  }
-
-  h2, h3, h4 {
-    page-break-after: avoid;
-  }
-
-  article {
+    background-color: white !important;
+    box-shadow: none !important;
+    border: 1pt solid #bbb !important;
+    break-inside: avoid;
     page-break-inside: avoid;
-    border: 1px solid #ccc !important;
+  }
+
+  /* Flatten tier background panels */
+  body.printing #solutions div {
     background: white !important;
+    background-color: white !important;
+  }
+
+  body.printing h3,
+  body.printing h4 {
+    break-after: avoid;
+    page-break-after: avoid;
   }
 }

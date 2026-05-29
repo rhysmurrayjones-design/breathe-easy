@@ -58,7 +58,15 @@ const tierAccent = {
 export default function SolutionsSection() {
   const headerRef = useScrollReveal()
 
-  const printChecklist = () => window.print()
+  const printChecklist = () => {
+    document.body.classList.add('printing')
+    const cleanup = () => {
+      document.body.classList.remove('printing')
+      window.removeEventListener('afterprint', cleanup)
+    }
+    window.addEventListener('afterprint', cleanup)
+    window.print()
+  }
 
   return (
     <section
@@ -67,7 +75,7 @@ export default function SolutionsSection() {
       style={{ backgroundColor: '#F0E6D3' }}
     >
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div ref={headerRef} className="reveal mb-4 max-w-2xl">
+        <div id="solutions-header" ref={headerRef} className="reveal mb-4 max-w-2xl">
           <p className="section-label mb-3">Take Action</p>
           <h2 className="section-heading mb-4">What Can You Do? (A Lot, Actually.)</h2>
           <p className="font-body text-brown/70 text-lg leading-relaxed mb-6">
