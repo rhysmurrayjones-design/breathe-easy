@@ -1,7 +1,12 @@
 import { Camera } from 'lucide-react'
 import { useScrollReveal, useScrollRevealChildren } from '../hooks/useScrollReveal'
 
-const teamMembers = [{ id: 1 }, { id: 2 }, { id: 3 }, { id: 4 }]
+const teamMembers = [
+  { id: 1, name: 'Hans Hilton', photo: '/assets/images/Hans.jpg' },
+  { id: 2 },
+  { id: 3 },
+  { id: 4 },
+]
 
 export default function MeetTheTeam() {
   const headerRef = useScrollReveal()
@@ -28,16 +33,17 @@ export default function MeetTheTeam() {
               className={`reveal reveal-delay-${Math.min(i + 1, 4)}`}
             >
               <article className="bg-sand rounded-xl shadow-card overflow-hidden transition-shadow hover:shadow-card-hover">
-                {/* ADD TEAM MEMBER PHOTO HERE: place your image in src/assets/images/ and replace src="" with your filename */}
                 <div
-                  className="w-full aspect-square flex items-center justify-center"
+                  className="w-full aspect-square flex items-center justify-center overflow-hidden"
                   style={{ backgroundColor: '#E8DDD0' }}
                 >
-                  <Camera size={40} className="text-brown/30" aria-hidden="true" />
+                  {member.photo
+                    ? <img src={member.photo} alt={member.name} className="w-full h-full object-cover" />
+                    : <Camera size={40} className="text-brown/30" aria-hidden="true" />}
                 </div>
                 <div className="p-6 pb-7">
                   <h3 className="font-display font-bold text-brown text-lg leading-tight mb-3">
-                    Team Member Name
+                    {member.name ?? 'Team Member Name'}
                   </h3>
                   <p className="font-body text-brown/70 text-sm leading-relaxed" style={{ minHeight: '6.5rem' }}>
                     Add a short bio or fun fact about yourself here.
