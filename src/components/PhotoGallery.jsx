@@ -74,9 +74,9 @@ const photos = [
   {
     id: 8,
     src: opedPhoto,
-    alt: 'Published in Op Ed',
-    label: 'Published in Op Ed',
-    caption: 'Published in Op Ed',
+    alt: 'Published an Op Ed',
+    label: 'Published an Op Ed',
+    caption: 'Published an Op Ed',
     credit: 'Credit: [Add photographer / source]',
     description: '',
   },
