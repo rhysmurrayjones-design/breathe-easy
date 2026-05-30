@@ -4,6 +4,7 @@ import iaqTalkPhoto from '../assets/Images/IAQTalk.png'
 import placedMonitorsPhoto from '../assets/Images/PlacedMonitorsinClassrooms.png'
 import analyzingDataPhoto from '../assets/Images/AnalyzingData.png'
 import metWithPrincipalPhoto from '../assets/Images/MetWithPrincipal.png'
+import hsphPhoto from '../assets/Images/HSPH.png'
 
 const photos = [
   {
@@ -62,12 +63,12 @@ const photos = [
   },
   {
     id: 7,
-    // ADD YOUR TEAM PHOTO HERE: drag your photo into src/assets/images/ and replace src="" with src="/assets/images/your-filename.jpg"
-    src: '',
-    alt: 'Our FPS team collaborating on the IAQ project',
-    label: 'Our Team at Work',
-    caption: 'Our Team at Work',
+    src: hsphPhoto,
+    alt: 'Shared process with Harvard School of Public Health',
+    label: 'Shared Process with Harvard School of Public Health',
+    caption: 'Shared Process with Harvard School of Public Health',
     credit: 'Credit: [Add photographer / source]',
+    description: '',
   },
   {
     id: 8,
