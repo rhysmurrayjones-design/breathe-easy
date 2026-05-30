@@ -5,6 +5,7 @@ import placedMonitorsPhoto from '../assets/Images/PlacedMonitorsinClassrooms.png
 import analyzingDataPhoto from '../assets/Images/AnalyzingData.png'
 import metWithPrincipalPhoto from '../assets/Images/MetWithPrincipal.png'
 import hsphPhoto from '../assets/Images/HSPH.png'
+import opedPhoto from '../assets/Images/OPED.png'
 
 const photos = [
   {
@@ -72,12 +73,12 @@ const photos = [
   },
   {
     id: 8,
-    // ADD YOUR TEAM PHOTO HERE: drag your photo into src/assets/images/ and replace src="" with src="/assets/images/your-filename.jpg"
-    src: '',
-    alt: 'Sharing our IAQ results and recommendations with the school',
-    label: 'Sharing Results with the School',
-    caption: 'Sharing Results with the School',
+    src: opedPhoto,
+    alt: 'Published in Op Ed',
+    label: 'Published in Op Ed',
+    caption: 'Published in Op Ed',
     credit: 'Credit: [Add photographer / source]',
+    description: '',
   },
 ]
 
