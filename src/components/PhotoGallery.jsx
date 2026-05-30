@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { X, ZoomIn, ImagePlus } from 'lucide-react'
 import iaqTalkPhoto from '../assets/Images/IAQTalk.png'
+import placedMonitorsPhoto from '../assets/Images/PlacedMonitorsinClassrooms.png'
 
 const photos = [
   {
@@ -23,12 +24,12 @@ const photos = [
   },
   {
     id: 3,
-    // ADD YOUR TEAM PHOTO HERE: drag your photo into src/assets/images/ and replace src="" with src="/assets/images/your-filename.jpg"
-    src: '',
-    alt: 'The testing equipment we used to measure indoor air quality',
-    label: 'Our Testing Equipment',
-    caption: 'Our Testing Equipment',
+    src: placedMonitorsPhoto,
+    alt: 'Placing monitors in classrooms',
+    label: 'Placing Monitors in Classrooms',
+    caption: 'Placing Monitors in Classrooms',
     credit: 'Credit: [Add photographer / source]',
+    description: '',
   },
   {
     id: 4,
