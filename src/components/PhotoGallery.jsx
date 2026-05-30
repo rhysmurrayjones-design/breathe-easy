@@ -1,15 +1,16 @@
 import { useState } from 'react'
 import { X, ZoomIn, ImagePlus } from 'lucide-react'
+import iaqTalkPhoto from '../assets/images/IAQTalk.png'
 
 const photos = [
   {
     id: 1,
-    // ADD YOUR TEAM PHOTO HERE: drag your photo into src/assets/images/ and replace src="" with src="/assets/images/your-filename.jpg"
-    src: '',
-    alt: 'Before: our school hallway before IAQ improvements',
-    label: 'Before: Our School Hallway',
-    caption: 'Before: Our School Hallway',
+    src: iaqTalkPhoto,
+    alt: 'Attending an IAQ Talk',
+    label: 'Attending an IAQ Talk',
+    caption: 'Attending an IAQ Talk',
     credit: 'Credit: [Add photographer / source]',
+    description: '',
   },
   {
     id: 2,
@@ -141,9 +142,8 @@ export default function PhotoGallery() {
               <h3 className="font-display font-bold text-brown text-base leading-tight mb-2">
                 {photo.label}
               </h3>
-              {/* DESCRIBE THIS STEP HERE: replace the placeholder text with your own description */}
               <p className="font-body text-brown/70 text-sm leading-relaxed" style={{ minHeight: '6.5rem' }}>
-                Describe this step of your process here.
+                {photo.description ?? 'Describe this step of your process here.'}
               </p>
             </div>
           </article>
