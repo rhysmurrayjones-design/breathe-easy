@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { X, ZoomIn, ImagePlus } from 'lucide-react'
 import iaqTalkPhoto from '../assets/Images/IAQTalk.png'
+import researchPhoto from '../assets/Images/Research.png'
 import placedMonitorsPhoto from '../assets/Images/PlacedMonitorsinClassrooms.png'
 import analyzingDataPhoto from '../assets/Images/AnalyzingData.png'
 import metWithPrincipalPhoto from '../assets/Images/MetWithPrincipal.png'
@@ -19,12 +20,12 @@ const photos = [
   },
   {
     id: 2,
-    // ADD YOUR TEAM PHOTO HERE: drag your photo into src/assets/images/ and replace src="" with src="/assets/images/your-filename.jpg"
-    src: '',
-    alt: 'Team members taking air quality readings with a monitor',
-    label: 'Taking Air Quality Readings',
-    caption: 'Taking Air Quality Readings',
+    src: researchPhoto,
+    alt: 'Read scientific papers',
+    label: 'Read Scientific Papers',
+    caption: 'Read Scientific Papers',
     credit: 'Credit: [Add photographer / source]',
+    description: '',
   },
   {
     id: 3,
