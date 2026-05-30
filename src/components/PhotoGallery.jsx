@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { X, ZoomIn, ImagePlus } from 'lucide-react'
-import iaqTalkPhoto from '../assets/images/IAQTalk.png'
+import iaqTalkPhoto from '../assets/Images/IAQTalk.png'
 
 const photos = [
   {
