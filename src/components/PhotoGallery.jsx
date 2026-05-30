@@ -83,7 +83,7 @@ const photos = [
 ]
 
 const PLACEHOLDER_BG = '#E8DDD0'
-const PHOTO_HEIGHT = 220
+const PHOTO_HEIGHT = 320
 
 function PhotoSlot({ photo, onClick }) {
   return (
@@ -98,7 +98,7 @@ function PhotoSlot({ photo, onClick }) {
           src={photo.src}
           alt={photo.alt}
           className="w-full h-full"
-          style={{ objectFit: 'cover', display: 'block' }}
+          style={{ objectFit: 'cover', objectPosition: 'center', display: 'block' }}
           loading="lazy"
         />
       ) : (
