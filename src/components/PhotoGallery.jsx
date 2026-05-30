@@ -75,6 +75,46 @@ const photos = [
     caption: 'Sharing Results with the School',
     credit: 'Credit: [Add photographer / source]',
   },
+  {
+    // ADD PHOTO HERE
+    id: 9,
+    src: '',
+    alt: 'Our research process',
+    label: 'Our Research Process',
+    caption: 'Our Research Process',
+    credit: 'Credit: [Add photographer / source]',
+    description: '',
+  },
+  {
+    // ADD PHOTO HERE
+    id: 10,
+    src: '',
+    alt: 'Testing our school',
+    label: 'Testing Our School',
+    caption: 'Testing Our School',
+    credit: 'Credit: [Add photographer / source]',
+    description: '',
+  },
+  {
+    // ADD PHOTO HERE
+    id: 11,
+    src: '',
+    alt: 'Our findings',
+    label: 'Our Findings',
+    caption: 'Our Findings',
+    credit: 'Credit: [Add photographer / source]',
+    description: '',
+  },
+  {
+    // ADD PHOTO HERE
+    id: 12,
+    src: '',
+    alt: 'Next steps',
+    label: 'Next Steps',
+    caption: 'Next Steps',
+    credit: 'Credit: [Add photographer / source]',
+    description: '',
+  },
 ]
 
 const PLACEHOLDER_BG = '#E8DDD0'
@@ -131,7 +171,7 @@ export default function PhotoGallery() {
         <h2 className="section-heading">Our Project in Action</h2>
       </div>
 
-      <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
         {photos.map((photo) => (
           <article
             key={photo.id}
