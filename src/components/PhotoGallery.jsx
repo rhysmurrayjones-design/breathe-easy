@@ -76,46 +76,6 @@ const photos = [
     caption: 'Sharing Results with the School',
     credit: 'Credit: [Add photographer / source]',
   },
-  {
-    // ADD PHOTO HERE
-    id: 9,
-    src: '',
-    alt: 'Our research process',
-    label: 'Our Research Process',
-    caption: 'Our Research Process',
-    credit: 'Credit: [Add photographer / source]',
-    description: '',
-  },
-  {
-    // ADD PHOTO HERE
-    id: 10,
-    src: '',
-    alt: 'Testing our school',
-    label: 'Testing Our School',
-    caption: 'Testing Our School',
-    credit: 'Credit: [Add photographer / source]',
-    description: '',
-  },
-  {
-    // ADD PHOTO HERE
-    id: 11,
-    src: '',
-    alt: 'Our findings',
-    label: 'Our Findings',
-    caption: 'Our Findings',
-    credit: 'Credit: [Add photographer / source]',
-    description: '',
-  },
-  {
-    // ADD PHOTO HERE
-    id: 12,
-    src: '',
-    alt: 'Next steps',
-    label: 'Next Steps',
-    caption: 'Next Steps',
-    credit: 'Credit: [Add photographer / source]',
-    description: '',
-  },
 ]
 
 const PLACEHOLDER_BG = '#E8DDD0'
