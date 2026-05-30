@@ -3,6 +3,7 @@ import { X, ZoomIn, ImagePlus } from 'lucide-react'
 import iaqTalkPhoto from '../assets/Images/IAQTalk.png'
 import placedMonitorsPhoto from '../assets/Images/PlacedMonitorsinClassrooms.png'
 import analyzingDataPhoto from '../assets/Images/AnalyzingData.png'
+import metWithPrincipalPhoto from '../assets/Images/MetWithPrincipal.png'
 
 const photos = [
   {
@@ -43,12 +44,12 @@ const photos = [
   },
   {
     id: 5,
-    // ADD YOUR TEAM PHOTO HERE: drag your photo into src/assets/images/ and replace src="" with src="/assets/images/your-filename.jpg"
-    src: '',
-    alt: 'Team building an IAQ awareness poster for the school',
-    label: 'Building Our Awareness Poster',
-    caption: 'Building Our Awareness Poster',
+    src: metWithPrincipalPhoto,
+    alt: 'Met with principal and shared results',
+    label: 'Met with Principal and Shared Results',
+    caption: 'Met with Principal and Shared Results',
     credit: 'Credit: [Add photographer / source]',
+    description: '',
   },
   {
     id: 6,
