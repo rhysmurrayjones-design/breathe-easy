@@ -2,13 +2,14 @@ import { Camera } from 'lucide-react'
 import hansPhoto from '../assets/Images/Hans.jpg'
 import hugoPhoto from '../assets/Images/Hugo.jpg'
 import coopPhoto from '../assets/Images/Coop.jpg'
+import olliePhoto from '../assets/Images/Ollie.jpg'
 import { useScrollReveal, useScrollRevealChildren } from '../hooks/useScrollReveal'
 
 const teamMembers = [
   { id: 1, name: 'Hans Hilton', photo: hansPhoto, bio: 'I am currently in 8th grade, and am an avid cross-country skier, mathlete, and enjoy being outside with friends and family.' },
   { id: 2, name: 'Hugo Hilton', photo: hugoPhoto, bio: 'I am a 6th grader at Richmond Middle School and I love cross country skiing, baseball, and being outside.' },
   { id: 3, name: 'Coop Jones', photo: coopPhoto, bio: 'I am an eighth grader that loves playing guitar, sailing in the summer, reading, and relaxing with family.' },
-  { id: 4 },
+  { id: 4, name: 'Ollie Marchetti', photo: olliePhoto },
 ]
 
 export default function MeetTheTeam() {
