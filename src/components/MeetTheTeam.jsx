@@ -1,12 +1,13 @@
 import { Camera } from 'lucide-react'
 import hansPhoto from '../assets/Images/Hans.jpg'
 import hugoPhoto from '../assets/Images/Hugo.jpg'
+import coopPhoto from '../assets/Images/Coop.jpg'
 import { useScrollReveal, useScrollRevealChildren } from '../hooks/useScrollReveal'
 
 const teamMembers = [
   { id: 1, name: 'Hans Hilton', photo: hansPhoto, bio: 'I am currently in 8th grade, and am an avid cross-country skier, mathlete, and enjoy being outside with friends and family.' },
   { id: 2, name: 'Hugo Hilton', photo: hugoPhoto },
-  { id: 3 },
+  { id: 3, name: 'Coop Jones', photo: coopPhoto },
   { id: 4 },
 ]
 
