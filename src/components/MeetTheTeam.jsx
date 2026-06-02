@@ -6,7 +6,7 @@ import { useScrollReveal, useScrollRevealChildren } from '../hooks/useScrollReve
 
 const teamMembers = [
   { id: 1, name: 'Hans Hilton', photo: hansPhoto, bio: 'I am currently in 8th grade, and am an avid cross-country skier, mathlete, and enjoy being outside with friends and family.' },
-  { id: 2, name: 'Hugo Hilton', photo: hugoPhoto },
+  { id: 2, name: 'Hugo Hilton', photo: hugoPhoto, bio: 'I am a 6th grader at Richmond Middle School and I love cross country skiing, baseball, and being outside.' },
   { id: 3, name: 'Coop Jones', photo: coopPhoto },
   { id: 4 },
 ]
