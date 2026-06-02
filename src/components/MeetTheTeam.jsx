@@ -4,7 +4,7 @@ import hugoPhoto from '../assets/Images/Hugo.jpg'
 import { useScrollReveal, useScrollRevealChildren } from '../hooks/useScrollReveal'
 
 const teamMembers = [
-  { id: 1, name: 'Hans Hilton', photo: hansPhoto },
+  { id: 1, name: 'Hans Hilton', photo: hansPhoto, bio: 'I am currently in 8th grade, and am an avid cross-country skier, mathlete, and enjoy being outside with friends and family.' },
   { id: 2, name: 'Hugo Hilton', photo: hugoPhoto },
   { id: 3 },
   { id: 4 },
@@ -48,7 +48,7 @@ export default function MeetTheTeam() {
                     {member.name ?? 'Team Member Name'}
                   </h3>
                   <p className="font-body text-brown/70 text-sm leading-relaxed" style={{ minHeight: '6.5rem' }}>
-                    Add a short bio or fun fact about yourself here.
+                    {member.bio ?? 'Add a short bio or fun fact about yourself here.'}
                   </p>
                 </div>
               </article>
