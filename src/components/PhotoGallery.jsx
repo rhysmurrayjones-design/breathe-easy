@@ -7,6 +7,7 @@ import analyzingDataPhoto from '../assets/Images/AnalyzingData.png'
 import metWithPrincipalPhoto from '../assets/Images/MetWithPrincipal.png'
 import hsphPhoto from '../assets/Images/HSPH.png'
 import opedPhoto from '../assets/Images/OPED.png'
+import hhsPresentationPhoto from '../assets/Images/HHSPresentation.jpg'
 
 const photos = [
   {
@@ -56,12 +57,12 @@ const photos = [
   },
   {
     id: 6,
-    // ADD YOUR TEAM PHOTO HERE: drag your photo into src/assets/images/ and replace src="" with src="/assets/images/your-filename.jpg"
-    src: '',
-    alt: 'Presenting our IAQ findings to the community',
-    label: 'Community Presentation',
-    caption: 'Community Presentation',
+    src: hhsPresentationPhoto,
+    alt: 'HHS Presentation',
+    label: 'HHS Presentation',
+    caption: 'HHS Presentation',
     credit: 'Credit: [Add photographer / source]',
+    description: '',
   },
   {
     id: 7,
