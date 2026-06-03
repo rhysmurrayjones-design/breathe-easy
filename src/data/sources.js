@@ -20,11 +20,11 @@ export const sources = [
   {
     id: 3,
     topic: 'IAQ Basics',
-    author: 'Atlantic Environmental',
-    title: 'Indoor Air Quality and Its Impact on Health',
-    publication: 'Atlantic Environmental',
+    author: 'CDC',
+    title: 'About Air Quality',
+    publication: 'CDC.gov',
     date: 'n.d.',
-    url: 'https://www.atlenv.com/indoor-air-quality-and-its-impact-on-health',
+    url: 'https://www.cdc.gov/air-quality/about/',
   },
   {
     id: 4,
@@ -79,6 +79,15 @@ export const sources = [
     publication: 'EPA.gov',
     date: 'n.d.',
     url: 'https://www.epa.gov/indoor-air-quality-iaq/what-carbon-monoxide',
+  },
+  {
+    id: 10,
+    topic: 'IAQ Basics',
+    author: 'Atlantic Environmental',
+    title: 'Indoor Air Quality and Its Impact on Health',
+    publication: 'Atlantic Environmental',
+    date: 'n.d.',
+    url: 'https://www.atlenv.com/indoor-air-quality-and-its-impact-on-health',
   },
   {
     id: 11,
