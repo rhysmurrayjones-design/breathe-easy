@@ -80,7 +80,7 @@ const photos = [
     label: 'Published an Op Ed',
     caption: 'Published an Op Ed',
     credit: 'Credit: [Add photographer / source]',
-    description: '',
+    description: 'In order to inform the broader community, our team wrote and published an Op-Ed in our local paper, the Valley News. This article reached over 15,000 readers in our community.',
   },
 ]
 
