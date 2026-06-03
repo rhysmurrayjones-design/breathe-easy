@@ -53,7 +53,7 @@ const photos = [
     label: 'Met with Principal and Shared Results',
     caption: 'Met with Principal and Shared Results',
     credit: 'Credit: [Add photographer / source]',
-    description: '',
+    description: 'Our team created a presentation, which included our findings, and wanted to share it with Hanover High School. We met with Principal Stevenson and planned to present at a staff meeting.',
   },
   {
     id: 6,
