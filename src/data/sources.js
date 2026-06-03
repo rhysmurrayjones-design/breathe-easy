@@ -74,11 +74,11 @@ export const sources = [
   {
     id: 9,
     topic: 'Health',
-    author: 'Centers for Disease Control and Prevention',
-    title: 'Carbon Monoxide Poisoning',
-    publication: 'CDC.gov',
+    author: 'U.S. Environmental Protection Agency',
+    title: 'What is Carbon Monoxide?',
+    publication: 'EPA.gov',
     date: 'n.d.',
-    url: 'https://www.cdc.gov/co-poisoning/about/index.html',
+    url: 'https://www.epa.gov/indoor-air-quality-iaq/what-carbon-monoxide',
   },
   {
     id: 11,
