@@ -71,7 +71,7 @@ const photos = [
     label: 'Shared Process with Harvard School of Public Health',
     caption: 'Shared Process with Harvard School of Public Health',
     credit: 'Credit: [Add photographer / source]',
-    description: '',
+    description: 'Our team was invited to present our work to the Healthy Buildings team with Dr. Joseph Allen at the Harvard School of Public Health. This was a great opportunity to meet and learn from IAQ experts.',
   },
   {
     id: 8,
