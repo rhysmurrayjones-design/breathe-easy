@@ -26,7 +26,7 @@ const photos = [
     label: 'Read Scientific Papers',
     caption: 'Read Scientific Papers',
     credit: 'Credit: [Add photographer / source]',
-    description: '',
+    description: 'As our team began to research indoor air quality, we learned that it has a serious effect on our health, is not regulated to safe standards, and mostly flies under the radar.',
   },
   {
     id: 3,
