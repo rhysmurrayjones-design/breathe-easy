@@ -44,7 +44,7 @@ const photos = [
     label: 'Analyzing the Data',
     caption: 'Analyzing the Data',
     credit: 'Credit: [Add photographer / source]',
-    description: '',
+    description: 'After retrieving the monitors and analyzing the results, our team categorized the rooms in three categories based on scientific sources: ideal, room for improvement, and unhealthy.',
   },
   {
     id: 5,
