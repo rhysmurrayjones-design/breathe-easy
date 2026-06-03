@@ -137,11 +137,11 @@ export const sources = [
   {
     id: 16,
     topic: 'Solutions',
-    author: 'American Lung Association',
-    title: 'Ventilation and Air Quality Indoors',
-    publication: 'Lung.org',
+    author: 'U.S. Environmental Protection Agency',
+    title: 'Indoor Air Quality',
+    publication: 'EPA.gov',
     date: 'n.d.',
-    url: 'https://www.lung.org/clean-air/indoor-air/indoor-air-pollutants/ventilation',
+    url: 'https://www.epa.gov/report-environment/indoor-air-quality',
   },
 ]
 
