@@ -62,7 +62,7 @@ const photos = [
     label: 'HHS Presentation',
     caption: 'HHS Presentation',
     credit: 'Credit: [Add photographer / source]',
-    description: '',
+    description: 'We presented at the faculty and staff meeting about IAQ and our analysis of the Hanover High School indoor air. We shared our findings, explained the health impacts of poor air quality, and recommended steps the school could take to improve conditions for students and staff.',
   },
   {
     id: 7,
