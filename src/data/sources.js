@@ -20,11 +20,11 @@ export const sources = [
   {
     id: 3,
     topic: 'IAQ Basics',
-    author: 'Centers for Disease Control and Prevention',
-    title: 'Indoor Air Quality',
-    publication: 'CDC.gov',
+    author: 'Atlantic Environmental',
+    title: 'Indoor Air Quality and Its Impact on Health',
+    publication: 'Atlantic Environmental',
     date: 'n.d.',
-    url: 'https://www.cdc.gov/niosh/topics/indoorenv/default.html',
+    url: 'https://www.atlenv.com/indoor-air-quality-and-its-impact-on-health',
   },
   {
     id: 4,
