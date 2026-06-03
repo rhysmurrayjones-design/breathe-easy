@@ -35,7 +35,7 @@ const photos = [
     label: 'Placing Monitors in Classrooms',
     caption: 'Placing Monitors in Classrooms',
     credit: 'Credit: [Add photographer / source]',
-    description: '',
+    description: 'We decided to work at our local high school, Hanover High School, and with the indoor air quality monitors we loaned from Dr. Joseph Allen and his Healthy Buildings Team, we monitored the air in eleven classrooms across the school.',
   },
   {
     id: 4,
