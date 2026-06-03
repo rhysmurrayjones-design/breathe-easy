@@ -17,7 +17,7 @@ const photos = [
     label: 'Attending an IAQ Talk',
     caption: 'Attending an IAQ Talk',
     credit: 'Credit: [Add photographer / source]',
-    description: 'After interviewing local professionals and environmentalists, our team attended a talk by Dr. Joseph Allen from the Harvard T.H. Chan School of Public Health, who raised awareness about indoor air quality as part of the Wicked Problems Talk Series at the Tuck School of Business.',
+    description: 'After interviewing local professionals and environmentalists, our team attended a talk by Dr. Joseph Allen from the Harvard T.H. Chan School of Public Health, who raised awareness about indoor air quality.',
   },
   {
     id: 2,
