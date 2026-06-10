@@ -3,7 +3,11 @@
     "allow": [
       "Bash(git add *)",
       "Bash(git commit *)",
-      "Bash(git push *)"
+      "Bash(git push *)",
+      "Bash(rm \"C:\\\\Users\\\\morga\\\\breathe-easy\\\\src\\\\components\\\\Toolkit.jsx\")",
+      "Bash(git -C \"C:\\\\Users\\\\morga\\\\breathe-easy\" add .)",
+      "Bash(git -C \"C:\\\\Users\\\\morga\\\\breathe-easy\" commit -m \"Remove Toolkit section\")",
+      "Bash(git -C \"C:\\\\Users\\\\morga\\\\breathe-easy\" push)"
     ]
   }
 }

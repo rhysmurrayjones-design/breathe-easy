@@ -5,7 +5,6 @@ const links = [
   { href: '#what-is-iaq', label: 'What is IAQ?' },
   { href: '#problems', label: 'Problems' },
   { href: '#solutions', label: 'Solutions' },
-  { href: '#toolkit', label: 'Toolkit' },
   { href: '#sources', label: 'Sources' },
 ]
 
